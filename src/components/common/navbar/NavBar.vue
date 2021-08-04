@@ -1,5 +1,5 @@
 <template>
-  <div class="nav-bar">
+  <div class="navbar">
     <div class="left">
       <slot name="left"></slot>
     </div>
@@ -14,12 +14,12 @@
 
 <script>
 export default {
-  name:"NavBar"
+  name:"navbar",
 }
 </script>
 
 <style>
-  .nav-bar{
+  .navbar{
     display:flex;
     height:44px;
     /* 当没有内容的时候，line-height是撑不起框框来的 */

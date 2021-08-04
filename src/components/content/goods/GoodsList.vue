@@ -33,5 +33,11 @@ export default {
     border-top: 1px solid rgba(136, 133, 133, 0.116);
     /* margin-top:5px; */
     padding-top: 1px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    padding: 2px;
   }
 </style>

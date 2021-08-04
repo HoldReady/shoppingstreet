@@ -1,7 +1,7 @@
 <template>
 
 
-  <div class="tab-bar-item" @click="itemClick">
+  <div class="Mtab-bar-item" @click="itemClick">
     <!-- <span class="fas ">&#xf015;</span> -->
     <!-- <div>首页</div> -->
     <slot v-if="!isActive" name="item-icon"></slot>
@@ -63,13 +63,13 @@ export default {
   .active{
     color: var(--color-tint);
   }
-  .tab-bar-item {
+  .Mtab-bar-item {
     flex:1;
     text-align:center;
-    font-size: 13px;
+    font-size: 14px;
 
     /* 调整垂直距离 */
-    margin-top:2px;
+    margin-top:5px;
   };
   
 </style>
